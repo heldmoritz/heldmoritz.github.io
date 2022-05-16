@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic, phdlife, rants | Moritz Held</title>
+    <link>https://heldmoritz.github.io/tag/academic-phdlife-rants/</link>
+      <atom:link href="https://heldmoritz.github.io/tag/academic-phdlife-rants/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic, phdlife, rants</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2022. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://heldmoritz.github.io/media/icon_hue931df18a6246951a7bb2f7fd52f6709_4789_512x512_fill_lanczos_center_3.png</url>
+      <title>Academic, phdlife, rants</title>
+      <link>https://heldmoritz.github.io/tag/academic-phdlife-rants/</link>
+    </image>
+    
+    <item>
+      <title>My first year as a PhD student</title>
+      <link>https://heldmoritz.github.io/blog/post1/</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://heldmoritz.github.io/blog/post1/</guid>
+      <description>&lt;p&gt;You can expect my first blog post here, if I am not too shy to post it.&lt;/p&gt;
+&lt;!--
+
+## How it started
+
+I distinctly remember having breakfast in my old student apartment in early 2020. It was the start of the corona virus pandemic and back then we were all terrified of the rising numbers. &#34;36 cases in Germany already. Did you hear? If the numbers continue like that we are never going out of lockdown.&#34;, my roomate said to me. He was, like me, at the end of his master&#39;s degree filling his days with finishing up course work and watching the news. &#34;Crazy&#34;, I replied. Crazy indeed. The pandemic did not only shape our private lives but also our professional lives. And for me, and many others, it shaped the first year of my PhD.
+
+At that morning in early 2020, as we were drinking our third or fourth coffee and wondering which window to look out of today, my roomate and I were also discussing our lives after our master&#39;s. How do you even apply for a PhD? What area do I want to go in? Which group, university or country would I be part of in the next year? All these questions were plaguing us and to a degree also inhibiting us from doing anything. Unbeknownst to us though, both of us would get an offer for a PhD position not 2 weeks after that morning and we would both accept. He was offered the opportunity to study the lives of worms in the arctic ocean and I am now a neuropsychologist who tries his luck developing cognitive models to investigate cognitive workload while driving.
+
+I am now enrolled in joint degree PhD program at the Artificial Intelligence Department of the University of Groningen and also at the University of Oldenburg. At least, I *think* I am enrolled. You see, the system to enroll in the joint PhD program was so unnecessarily complicated and involved so many different forms that, until today, I am not sure if I am actually a fully enrolled PhD student who will get his Diploma in December 2024. I guess, we will find out.
+--&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

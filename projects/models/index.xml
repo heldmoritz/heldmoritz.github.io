@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Models | Moritz Held</title>
+    <link>https://heldmoritz.github.io/projects/models/</link>
+      <atom:link href="https://heldmoritz.github.io/projects/models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Models</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2022. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://heldmoritz.github.io/media/icon_hue931df18a6246951a7bb2f7fd52f6709_4789_512x512_fill_lanczos_center_3.png</url>
+      <title>Models</title>
+      <link>https://heldmoritz.github.io/projects/models/</link>
+    </image>
+    
+    <item>
+      <title>N-back while driving</title>
+      <link>https://heldmoritz.github.io/projects/models/model1/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://heldmoritz.github.io/projects/models/model1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
