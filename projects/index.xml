@@ -7,22 +7,19 @@
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2022. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://heldmoritz.github.io/media/icon_hue931df18a6246951a7bb2f7fd52f6709_4789_512x512_fill_lanczos_center_3.png</url>
+      <url>https://heldmoritz.github.io/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://heldmoritz.github.io/projects/</link>
     </image>
     
     <item>
-      <title>Modeling working memory load while driving</title>
+      <title>Contrasting two bottlenecks in the ACT-R architecture</title>
       <link>https://heldmoritz.github.io/projects/wmldriving/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://heldmoritz.github.io/projects/wmldriving/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;div style=&#34;text-align: justify&#34;&gt; 
-Autonomous driving is an area which has seen rapid growth in recent years A long-held belief in this field is that more automation will equate more safety. However, some researchers continue to challenge this conviction in an argument for adaptive automation (Hancock et al., 2013).
-In the context of driving, man-machine systems implementing adaptive automation are envisioned to continuously engage the driver in the driving task and at the same time, dynamically adapt the task-load depending on the driver’s momentary cognitive ability. A key step towards this approach is to continuously monitor the driver’s mental state and predict when the automation system should take more responsibilities and when to give them back to prevent drivers from mentally disengaging in the driving task.
-&lt;p&gt;Predicting mental workload has been done in recent studies using neuroimaging data (e.g., fNIRS; Unni et al., 2017; Scheunemann et al., 2019) but has come with limitations as different types of cognitive workload were interacting instead of adding at the brain level, which led to a decrease in prediction accuracy for two cognitive concepts relevant to driving: working memory load and visuospatial attention. In this project, we developed a cognitive model in the cognitive architecture ACT-R that integrates these two cognitive concepts to provide insights into how, when and where they interact.&lt;/p&gt;
-&lt;/div&gt;
+      <description>&lt;h2 id=&#34;project-description&#34;&gt;Project Description&lt;/h2&gt;
+&lt;p&gt;This work was motivated by the findings of Jakob Scheunemann, Anirudh Unni and Jochem Rieger, who found interactions between two cognitive concepts while driving. These interactions have been attributed to a central bottleneck or to the so-called problem-state bottleneck, related to working memory usage. We developed two different cognitive models in the cognitive architecture ACT-R, which implement the two different bottlenecks. The models performed a highway driving task, during which we varied visuospatial attention and working memory load. To evaluate the models, we conducted an experiment with human participants and compared the behavioral data to the model&amp;rsquo;s behavior.&lt;/p&gt;
+&lt;h2 id=&#34;link-to-the-paper&#34;&gt;Link to the paper&lt;/h2&gt;
 </description>
     </item>
     
