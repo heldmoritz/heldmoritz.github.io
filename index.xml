@@ -5,7 +5,7 @@
     <link>https://heldmoritz.github.io/</link>
       <atom:link href="https://heldmoritz.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Moritz Held</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2023. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Tue, 06 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2023. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://heldmoritz.github.io/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_512x512_fill_lanczos_center_3.png</url>
       <title>Moritz Held</title>
@@ -13,28 +13,11 @@
     </image>
     
     <item>
-      <title>Multitasking while driving: central bottleneck or problem state interference?</title>
-      <link>https://heldmoritz.github.io/publications/2022_hf_interference/</link>
-      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://heldmoritz.github.io/publications/2022_hf_interference/</guid>
-      <description>&lt;!--
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-The [code](https://github.com/ANCPLabOldenburg/experiment_code_held2022) for this project is available online!
---&gt;
-</description>
+      <title>Multitasking While Driving: Central Bottleneck or Problem State Interference?</title>
+      <link>https://heldmoritz.github.io/publications/held-multitasking-2022/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://heldmoritz.github.io/publications/held-multitasking-2022/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -221,25 +204,6 @@ The [code](https://github.com/ANCPLabOldenburg/experiment_code_held2022) for thi
 
 The [code](https://github.com/ANCPLabOldenburg/experiment_code_held2022) for this project is available online!
 --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>N-back while driving</title>
-      <link>https://heldmoritz.github.io/projects/models/model1/</link>
-      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://heldmoritz.github.io/projects/models/model1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contrasting two bottlenecks in the ACT-R architecture</title>
-      <link>https://heldmoritz.github.io/projects/wmldriving/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://heldmoritz.github.io/projects/wmldriving/</guid>
-      <description>&lt;h2 id=&#34;project-description&#34;&gt;Project Description&lt;/h2&gt;
-&lt;p&gt;This work was motivated by the findings of Jakob Scheunemann, Anirudh Unni and Jochem Rieger, who found interactions between two cognitive concepts while driving. These interactions have been attributed to a central bottleneck or to the so-called problem-state bottleneck, related to working memory usage. We developed two different cognitive models in the cognitive architecture ACT-R, which implement the two different bottlenecks. The models performed a highway driving task, during which we varied visuospatial attention and working memory load. To evaluate the models, we conducted an experiment with human participants and compared the behavioral data to the model&amp;rsquo;s behavior.&lt;/p&gt;
-&lt;h2 id=&#34;link-to-the-paper&#34;&gt;Link to the paper&lt;/h2&gt;
 </description>
     </item>
     
