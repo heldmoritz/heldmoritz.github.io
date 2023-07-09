@@ -64,10 +64,10 @@
   
     
   
-  <meta name="description" content="" />
+  <meta name="description" content="I am currently revising a manuscript using easyReview. There is a known problem that there is no option to have the changes on or off. I solved this by redefining the functions add/remove/replace and thought I would just share it with everybody in case someone else is using the package, too." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://heldmoritz.github.io/blog/talks/" />
+  <link rel="alternate" hreflang="en-us" href="https://heldmoritz.github.io/blog/latex_revision/blog-post-latex-revision/" />
 
   
   
@@ -282,7 +282,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://heldmoritz.github.io/blog/talks/" />
+  <link rel="canonical" href="https://heldmoritz.github.io/blog/latex_revision/blog-post-latex-revision/" />
 
   
   
@@ -305,9 +305,9 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Moritz Held" />
-  <meta property="og:url" content="https://heldmoritz.github.io/blog/talks/" />
-  <meta property="og:title" content="Recent &amp; Upcoming Talks | Moritz Held" />
-  <meta property="og:description" content="" /><meta property="og:image" content="https://heldmoritz.github.io/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://heldmoritz.github.io/blog/latex_revision/blog-post-latex-revision/" />
+  <meta property="og:title" content="Moritz Held" />
+  <meta property="og:description" content="I am currently revising a manuscript using easyReview. There is a known problem that there is no option to have the changes on or off. I solved this by redefining the functions add/remove/replace and thought I would just share it with everybody in case someone else is using the package, too." /><meta property="og:image" content="https://heldmoritz.github.io/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://heldmoritz.github.io/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
@@ -328,11 +328,11 @@
 
 
 
-  <title>Recent &amp; Upcoming Talks | Moritz Held</title>
+  <title>Moritz Held</title>
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="cd54715ea0981aa1686796623f01531f" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="c47afaa9226cbed1faee0f4c26aa703c" >
 
   
   
@@ -584,7 +584,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Recent &amp; Upcoming Talks</h1>
+  <h1></h1>
 
   
 
@@ -633,7 +633,33 @@
 
         <div class="article-container">
           <div class="article-style" align="justify">
-            
+            <p>I am currently revising a manuscript using <a href="[https://www.ctan.org/pkg/easyreview]%28https://www.ctan.org/pkg/easyreview%29">easyReview</a>. There is a known problem that there is no option to have the changes on or off. I solved this by redefining the functions add/remove/replace and thought I would just share it with everybody in case someone else is using the package, too. With this change you can use the function as follows <code>\replace{striked through content}{revised content}</code>. You can also have an optional argument that add bold faced text at the end (e.g., to point to the comment of the reviewer) so <code>\replace[reviewer 1, comment 3]{old content}{new content}</code> appears like this:</p>
+<blockquote>
+<p>[!How it appears in text]
+![[website_latex_example.png]]</p>
+</blockquote>
+<p>Using the command <code>\setreviewsoff</code> then only shows the new content in the manuscript for when you are wanting to have no changes displayed.</p>
+<p>To take over these changes simply include</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Tex" data-lang="Tex"><span class="line"><span class="cl"><span class="k">\usepackage</span><span class="na">[dvipsnames]</span><span class="nb">{</span>xcolor<span class="nb">}</span> <span class="c">% for custom colors
+</span></span></span><span class="line"><span class="cl"><span class="c"></span><span class="k">\usepackage</span><span class="nb">{</span>easyReview<span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\let\oldremove\remove</span>
+</span></span><span class="line"><span class="cl"><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\remove</span><span class="nb">}</span>[2][]<span class="nb">{</span><span class="k">\ifistoreview\ifthenelse</span><span class="nb">{</span><span class="k">\isempty</span><span class="nb">{</span>#1<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">{</span><span class="k">\oldremove</span><span class="nb">{</span><span class="k">\mbox</span><span class="nb">{</span>#2<span class="nb">}}}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">{</span><span class="k">\oldremove</span><span class="nb">{</span><span class="k">\mbox</span><span class="nb">{</span>#2<span class="nb">}}</span> <span class="k">\textbf</span><span class="nb">{</span>[#1]<span class="nb">}}</span><span class="c">%
+</span></span></span><span class="line"><span class="cl"><span class="c"></span>    <span class="k">\else</span> <span class="k">\fi</span><span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\let\oldadd\add</span>
+</span></span><span class="line"><span class="cl"><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\add</span><span class="nb">}</span>[2][]<span class="nb">{</span><span class="k">\ifistoreview\ifthenelse</span><span class="nb">{</span><span class="k">\isempty</span><span class="nb">{</span>#1<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">{</span><span class="k">\oldadd</span><span class="nb">{</span>#2<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">{</span><span class="k">\oldadd</span><span class="nb">{</span>#2<span class="nb">}</span> <span class="k">\textbf</span><span class="nb">{</span>[#1]<span class="nb">}}</span><span class="c">%
+</span></span></span><span class="line"><span class="cl"><span class="c"></span>    <span class="k">\else</span> <span class="k">\oldadd</span><span class="nb">{</span>#2<span class="nb">}</span><span class="k">\fi</span><span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\replace</span><span class="nb">}</span>[3][]<span class="nb">{</span><span class="k">\ifistoreview\ifthenelse</span><span class="nb">{</span><span class="k">\isempty</span><span class="nb">{</span>#1<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">{</span><span class="k">\oldremove</span><span class="nb">{</span><span class="k">\mbox</span><span class="nb">{</span>#2<span class="nb">}}</span> <span class="k">\oldadd</span><span class="nb">{</span>#3<span class="nb">}}</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">{</span><span class="k">\oldremove</span><span class="nb">{</span><span class="k">\mbox</span><span class="nb">{</span>#2<span class="nb">}}</span> <span class="k">\oldadd</span><span class="nb">{</span>#3<span class="nb">}</span> <span class="k">\textbf</span><span class="nb">{</span>[#1]<span class="nb">}}</span><span class="c">%
+</span></span></span><span class="line"><span class="cl"><span class="c"></span>    <span class="k">\else</span> <span class="k">\oldadd</span><span class="nb">{</span>#3<span class="nb">}</span><span class="k">\fi</span><span class="nb">}</span>
+</span></span><span class="line"><span class="cl"><span class="k">\renewcommand</span><span class="nb">{</span><span class="k">\addColor</span><span class="nb">}{</span><span class="k">\textcolor</span><span class="nb">{</span>OliveGreen<span class="nb">}}</span> <span class="c">%OliveGreen
+</span></span></span><span class="line"><span class="cl"><span class="c">%\setreviewsoff % Comment out if you want the finished version
+</span></span></span></code></pre></div><p>Hope this helps!</p>
+
           </div>
           
 
@@ -653,7 +679,7 @@
       
       
       <li>
-        <a href="mailto:moritz.held@uol.de?subject=Recent%20&amp;amp;%20Upcoming%20Talks&amp;body=Hey%20Moritz,.." target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:moritz.held@uol.de?subject=&amp;body=Hey%20Moritz,.." target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
