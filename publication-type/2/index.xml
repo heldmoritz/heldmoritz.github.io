@@ -14,21 +14,10 @@
     
     <item>
       <title>Multitasking While Driving: Central Bottleneck or Problem State Interference?</title>
-      <link>https://heldmoritz.github.io/projects/held-multitasking-2022/held-multitasking-2022/</link>
+      <link>https://heldmoritz.github.io/publications/held-multitasking-2022/held-multitasking-2022/</link>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://heldmoritz.github.io/projects/held-multitasking-2022/held-multitasking-2022/</guid>
-      <description>&lt;h3 id=&#34;objective&#34;&gt;Objective&lt;/h3&gt;
-&lt;p&gt;The objective of this work was to investigate if visuospatial attention and working memory load interact at a central control resource or at a task-specific, information processing resource during driving.&lt;/p&gt;
-&lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
-&lt;p&gt;In previous multitasking driving experiments, interactions between different cognitive concepts (e.g., attention and working memory) have been found. These interactions have been attributed to a central bottleneck or to the so-called problem-state bottleneck, related to working memory usage.&lt;/p&gt;
-&lt;h3 id=&#34;method&#34;&gt;Method&lt;/h3&gt;
-&lt;p&gt;We developed two different cognitive models in the cognitive architecture ACT-R, which implement the central vs. problem-state bottleneck. The models performed a driving task, during which we varied visuospatial attention and working memory load. We evaluated the model by conducting an experiment with human participants and compared the behavioral data to the model’s behavior.&lt;/p&gt;
-&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
-&lt;p&gt;The problem-state-bottleneck model could account for decreased driving performance due to working memory load as well as increased visuospatial attentional demands as compared to the central-bottleneck model, which could not account for effects of increased working memory load.&lt;/p&gt;
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;The interaction between working memory and visuospatial attention in our dual tasking experiment can be best characterized by a bottleneck in the working memory. The model results suggest that as working memory load becomes higher, drivers manage to perform fewer control actions, which leads to decreasing driving performance.&lt;/p&gt;
-&lt;h3 id=&#34;application&#34;&gt;Application&lt;/h3&gt;
-&lt;p&gt;Predictions about the effect of different mental loads can be used to quantify the contribution of each subtask allowing for precise assessments of the current overall mental load, which automated driving systems may adapt to.&lt;/p&gt;
+      <guid>https://heldmoritz.github.io/publications/held-multitasking-2022/held-multitasking-2022/</guid>
+      <description>&lt;p&gt;The objective of this work was to investigate if visuospatial attention and working memory load interact at a central control resource or at a task-specific, information processing resource during driving. In previous multitasking driving experiments, interactions between different cognitive concepts (e.g., attention and working memory) have been found. These interactions have been attributed to a central bottleneck or to the so-called problem-state bottleneck, related to working memory usage. We developed two different cognitive models in the cognitive architecture ACT-R, which implement the central vs. problem-state bottleneck. The models performed a driving task, during which we varied visuospatial attention and working memory load. We evaluated the model by conducting an experiment with human participants and compared the behavioral data to the model’s behavior. The problem-state-bottleneck model could account for decreased driving performance due to working memory load as well as increased visuospatial attentional demands as compared to the central-bottleneck model, which could not account for effects of increased working memory load. The interaction between working memory and visuospatial attention in our dual tasking experiment can be best characterized by a bottleneck in the working memory. The model results suggest that as working memory load becomes higher, drivers manage to perform fewer control actions, which leads to decreasing driving performance. Predictions about the effect of different mental loads can be used to quantify the contribution of each subtask allowing for precise assessments of the current overall mental load, which automated driving systems may adapt to.&lt;/p&gt;
 </description>
     </item>
     
