@@ -5,12 +5,21 @@
     <link>https://heldmoritz.github.io/publication-type/2/</link>
       <atom:link href="https://heldmoritz.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2023. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2023. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://heldmoritz.github.io/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://heldmoritz.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Preventing mind-wandering during driving: Predictions on potential interventions using a cognitive model</title>
+      <link>https://heldmoritz.github.io/publications/held-mindwandering-2023/held-mindwandering-2023/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://heldmoritz.github.io/publications/held-mindwandering-2023/held-mindwandering-2023/</guid>
+      <description>&lt;p&gt;In this study, we make predictions on the effects of different interventions by adaptive automation systems designed to prevent mind-wandering while driving.  Although cognitive load associated with secondary tasks tends to affect driving negatively, a simple secondary task can improve driving performance when the driving scenario is mundane.  Nijboer and colleagues (2016) have hypothesized that if the driving task is simple, people might start mind-wandering, which interferes with driving. Furthermore, the authors proposed that a simple secondary task, which imposes less workload than mind-wandering, could prevent this from happening and thereby improve driving performance.  Automation systems that are informed about and adapt to the cognitive state of the driver could leverage this effect by inducing mild cognitive load during mundane driving scenarios.  To test suitable interventions, we combined an existing driver model with an existing model of mind-wandering implemented in the cognitive architecture ACT-R as executable theories of mind-wandering and cognitive processing in driving.  Using these different models we show how mind-wandering harms driving performance at the behavioral level and that interventions eliciting mild cognitive load can mitigate this behavioral effect.  However, the model indicates that some interventions incur a significant cognitive processing cost that adaptive automation systems must account for.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A References Architecture for Human Cyber Physical Systems - PART II: Fundamental Design Principles for Human-CPS Interaction</title>
@@ -34,15 +43,6 @@
       <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://heldmoritz.github.io/publications/damm-architecture1-2023/damm-architecture1/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Preventing mind-wandering during driving: Predictions on potential interventions using a cognitive model</title>
-      <link>https://heldmoritz.github.io/publications/held-mindwandering-2023/held-mindwandering-2023/</link>
-      <pubDate>Sun, 09 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://heldmoritz.github.io/publications/held-mindwandering-2023/held-mindwandering-2023/</guid>
-      <description>&lt;p&gt;In this study, we make predictions on the effects of different interventions by adaptive automation systems designed to prevent mind-wandering while driving.  Although cognitive load associated with secondary tasks tends to affect driving negatively, a simple secondary task can improve driving performance when the driving scenario is mundane.  Nijboer and colleagues (2016) have hypothesized that if the driving task is simple, people might start mind-wandering, which interferes with driving. Furthermore, the authors proposed that a simple secondary task, which imposes less workload than mind-wandering, could prevent this from happening and thereby improve driving performance.  Automation systems that are informed about and adapt to the cognitive state of the driver could leverage this effect by inducing mild cognitive load during mundane driving scenarios.  To test suitable interventions, we combined an existing driver model with an existing model of mind-wandering implemented in the cognitive architecture ACT-R as executable theories of mind-wandering and cognitive processing in driving.  Using these different models we show how mind-wandering harms driving performance at the behavioral level and that interventions eliciting mild cognitive load can mitigate this behavioral effect.  However, the model indicates that some interventions incur a significant cognitive processing cost that adaptive automation systems must account for.&lt;/p&gt;
-</description>
     </item>
     
     <item>
