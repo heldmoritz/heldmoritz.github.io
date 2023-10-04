@@ -5,12 +5,36 @@
     <link>https://heldmoritz.github.io/publications/</link>
       <atom:link href="https://heldmoritz.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
     <description>Journal publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2023. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Sun, 09 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>Moritz Held, 2023. © Powered by Hugo. Theme by wowchemy.</copyright><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://heldmoritz.github.io/media/icon_hu2e1c86a051f3e1a2f5bea8949ddd27ea_8873_512x512_fill_lanczos_center_3.png</url>
       <title>Journal publications</title>
       <link>https://heldmoritz.github.io/publications/</link>
     </image>
+    
+    <item>
+      <title>A References Architecture for Human Cyber Physical Systems - PART II: Fundamental Design Principles for Human-CPS Interaction</title>
+      <link>https://heldmoritz.github.io/publications/bengler-architecture2/bengler-architecture2/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://heldmoritz.github.io/publications/bengler-architecture2/bengler-architecture2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A References Architecture for Human Cyber Physical Systems - PART III: Semantic Foundations</title>
+      <link>https://heldmoritz.github.io/publications/damm-architecture3-2023/damm-architecture3-2023/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://heldmoritz.github.io/publications/damm-architecture3-2023/damm-architecture3-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Reference Architecture of Human Cyber-Physical Systems – PART I: Fundamental Concepts</title>
+      <link>https://heldmoritz.github.io/publications/damm-architecture1-2023/damm-architecture1/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://heldmoritz.github.io/publications/damm-architecture1-2023/damm-architecture1/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Preventing mind-wandering during driving: Predictions on potential interventions using a cognitive model</title>
